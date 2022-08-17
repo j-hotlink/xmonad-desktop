@@ -10,9 +10,11 @@ Switching between desktops (ie. sets of windows to display across the monitors) 
 
 The sample xmonad.hs provides some useful config that works nicely in this setup:
 
- * M-<Left> and M-<Right> move focus left or right between monitors
- * M-S-<Left> and M-S-<Right> move the focussed window left or right between monitors
- * M-<Up> and M-<Down> move focus to the desktop above or below.
- * M-S-<Up> and M-S-<Down> move the focussed window to the desktop above or below.
- * Adds borders to windows to highlight focus (useful on multiple monitors)
+ * `M-<Left>` and `M-<Right>` move focus left or right between monitors
+ * `M-S-<Left>` and `M-S-<Right>` move the focussed window left or right between monitors
+ * `M-<Up>` and `M-<Down>` move focus to the desktop above or below.
+ * `M-S-<Up>` and `M-S-<Down>` move the focussed window to the desktop above or below.
+ * Adds (blue) border to windows to highlight focus (useful on multiple monitors)
  * Uses xmobar to show workspace names of current desktop
+
+![Screenshot - 3 monitors](/assets/images/screenshot-3-monitors.png)

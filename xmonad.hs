@@ -4,11 +4,6 @@
 --
 -- example xmonad config file for multi-monitor setup.
 --
--- A template showing all available configuration hooks,
--- and how to override the defaults in your own xmonad.hs conf file.
---
--- Normally, you'd only override those defaults you care about.
---
 import XMonad ( X, ScreenId, XConfig(..), (|||), mod4Mask, spawn, def, xmonad )
 import XMonad.Layout ( Mirror(..), Full(..), Tall(..) )
 import XMonad.Layout.Tabbed ( simpleTabbed )
