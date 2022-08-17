@@ -94,8 +94,8 @@ prev 2 = 0
 
 {-
 Defines the ordered desktops to use.
-Each inner list defines the workspace names that will constitute a single desktop (the
-numbers illustrate the designated monitor but any names can be used).
+Each inner list defines the unique workspace names that will constitute a single desktop
+(the numbers in each name illustrate the designated monitor but are not required).
 -}
 myDesktop = Desktop.buildConfig
   [ 
