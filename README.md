@@ -18,3 +18,5 @@ The sample xmonad.hs provides some useful config that works nicely in this setup
  * Uses xmobar to show workspace names of current desktop
 
 ![Screenshot - 3 monitors](/assets/images/screenshot-3-monitors.png)
+
+Installation: Place `Monitor.hs` and `Desktop.hs` into your `~/.xmonad/lib/` folder, apply your config and restart xmonad.
